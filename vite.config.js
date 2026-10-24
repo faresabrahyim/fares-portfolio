@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_ACTIONS
+  base:process.env.GITHUB_ACTIONS
     ? "/fares-portfolio/"
     : "/",
 });

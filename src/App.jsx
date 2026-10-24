@@ -10,7 +10,7 @@ import {
   Code2,
   ExternalLink,
 } from "lucide-react";
-
+import profileImage from "./Copilot_20260926_193200.png";
 const skills = [
   "React.js",
   "JavaScript ES6+",
@@ -175,10 +175,7 @@ function App() {
             <div className="hero-image-glow"></div>
 
             <div className="hero-image">
-              <img
-                src="../src/Copilot_20260926_193200.png"
-                alt="Fares Abrahyim"
-              />
+              <img src={profileImage} alt="Fares Abrahyim" />
             </div>
 
             <div className="hero-image-badge">
